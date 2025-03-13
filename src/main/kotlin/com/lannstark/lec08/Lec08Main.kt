@@ -2,10 +2,7 @@ package com.lannstark.lec08
 
 fun main() {
     repeat("Hello World", useNewLine = false)
-    printAll(
-        "Hello",
-        "Kotlin",
-        "Java")
+    printAll("Hello", "Kotlin", "Java")
 
     val array = arrayOf("Hello", "Kotlin", "Java")
     printAll(*array)
