@@ -29,12 +29,12 @@ class Person(name: String, var age: Int) {
         println("주 생성자 호출")
     }
 
-    fun isAdult(): Boolean {
-        return age >= 20
-    }
-
-    val isAdult: Boolean
-        get() = this.age >= 20
+//    fun isAdult(): Boolean {
+//        return age >= 20
+//    }
+//
+//    val isAdult: Boolean
+//        get() = this.age >= 20
 
     constructor(name: String): this(name, 1) {
         println("보조1 생성자 호출")
